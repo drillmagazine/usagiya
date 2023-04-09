@@ -341,7 +341,7 @@ aside {
 
 
 .mapimg img {
-    width: 90%;
+    width: 100%;
 }
 
 .mapaccess h2 {
@@ -360,7 +360,7 @@ address>p, span {
 
 .mapaccess {
     width: 100%;
-    padding: 0;
+    padding: 0 0 0 5vw;
 }
 
 .mapaccess p span {
