@@ -258,6 +258,47 @@ aside {
     color: darkslategray;
 }
 
+/* 催し物 */
+
+.poster p {
+
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 2vw;
+
+}
+
+#events  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+       padding: 0 10vw 3vw;
+}
+
+
+#events>h1 {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 2vw 0;
+}
+
+#events>h2 {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 2vw;
+}
+
+.cap   {
+    display: flex;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
 
 /* ご利用方法 */
 
@@ -725,7 +766,7 @@ footer {
         }
 
         #header ul li {
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-family: 'Sawarabi Mincho', serif;
             margin: 2vw;
         }
@@ -1025,5 +1066,21 @@ footer {
             justify-content: space-evenly;
             background-color: #E2E2E2;
     }
+
+
+
+    .poster p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 2vw;
+    }
+
+    .cap {
+        display: flex;
+        text-align: center;
+        font-size: 1rem;
+        text-align: left;
+    }
+
     }
         
